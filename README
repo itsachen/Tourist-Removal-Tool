@@ -1,0 +1,20 @@
+Tourist Removal Tool is a program originally developed for
+CS2110(OOP and Data Structures).
+
+From the GUI you select a directory that contains images
+with the filename formatted like fname_num.jpg.
+
+The program sorts these images into a video, then creates a summarized image
+from the series of images.
+
+Therein lies the "tourist removal" aspect of the program. The program
+analyzes the median value of all the pixels of all the images and constructs
+the median image from this process.
+
+You could have a series of images depicting a landmark and a person walking
+through the scene. With this program you can remove the person and have that
+final picture with the landmark.
+
+Sample pictures within directories are included.
+
+The main in Display starts the GUI.
